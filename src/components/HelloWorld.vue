@@ -1,6 +1,5 @@
 <template>
   <v-container>
-
     <v-row>
       <v-col cols="12" sm="6" md="3">
         <v-text-field v-model="givenURL" label="Website URL"></v-text-field>
@@ -11,7 +10,7 @@
       </v-col>
 
       <!-- <textarea v-model="fetchedJSON" rows="8" cols="40"></textarea> -->
-      <pre lass="text-wrap"> {{ fetchedJSON | pretty }} </pre> 
+      <pre > {{ fetchedJSON | pretty }} </pre> 
     </v-row>
   </v-container>
 </template>
@@ -51,3 +50,7 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+
+</style>

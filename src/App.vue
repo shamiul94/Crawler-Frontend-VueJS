@@ -54,3 +54,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+.html {
+    overflow-x: scroll !important;
+}
+</style>
